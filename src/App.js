@@ -5,10 +5,11 @@ import './App.css';
 import Cursos from "./components/productos/cursos"
 import Productos from "./components/productos/Productos"
 
-import Navbar from '../src/components/interfaz/Navbar';
+
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Contenedor from './components/productos/Contenedor';
+import Navbarr from './components/interfaz/Navbarr';
 
 
 
@@ -18,7 +19,7 @@ function App() {
     < >
 
       <BrowserRouter >
-      <Navbar />
+      <Navbarr />
       
 
       <Routes >
