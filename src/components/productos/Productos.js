@@ -1,6 +1,7 @@
 import React from 'react'
 import Redes from '../interfaz/Redes'
 import Footer from '../interfaz/Footer'
+import Formulario from "../interfaz/Formulario"
 
 import personaje from "../../assets/personaje.png"
 
@@ -84,6 +85,7 @@ const Productos = () => {
       </div>
       <Redes />
       <Footer />
+      <Formulario />
 
     </>
   )

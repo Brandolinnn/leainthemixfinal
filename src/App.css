@@ -482,6 +482,26 @@ ul {
   max-width: 1000px;
 }
 
+.formulario {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #BF00FF;
+}
+
+.titulo-email {
+  font-family:'Bebas Neue', cursive; ;
+  font-size: 40px;
+}
+
+.linea-email {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  
+  
+}
+
 
 
 .titulo-fotos {
@@ -557,6 +577,21 @@ ul {
 @media (max-width:430px) {
   .card {
     margin-bottom: 30px;
+    width: 100%;
+
+  }
+
+  .cards-yt {
+    width: 100%;
+    padding: 0;
+  }
+  .card-body {
+    width: 100%;
+  }
+
+  .card-title {
+    font-size: 10px;
+    
   }
   .escucha {
     font-size: 50px;

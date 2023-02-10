@@ -6,6 +6,7 @@ import Fotos from '../interfaz/Fotos'
 import Escucha from '../interfaz/Escucha'
 import Redes from '../interfaz/Redes'
 import Footer from '../interfaz/Footer'
+import Formulario from '../interfaz/Formulario'
 
 
 const Contenedor = () => {
@@ -17,7 +18,9 @@ const Contenedor = () => {
       <Fotos />
       <Escucha />
       <Redes />
+      
       <Footer />
+      <Formulario />
 
     </>
   )

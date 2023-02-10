@@ -4,6 +4,7 @@ import Redes from '../interfaz/Redes'
 import Footer from '../interfaz/Footer'
 
 import Body from '../interfaz/Body'
+import Formulario from '../interfaz/Formulario'
 
 const cursos = () => {
     return (
@@ -21,6 +22,8 @@ const cursos = () => {
 
             <Redes />
             <Footer />
+            <Formulario />
+
 
 
         </>
