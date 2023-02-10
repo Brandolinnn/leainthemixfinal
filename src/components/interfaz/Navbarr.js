@@ -24,16 +24,16 @@ const Navbarr = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <NavLink to={"/"} className={({ isActive }) => (isActive ? "link" :
-                                    "link")} >
+                                <NavLink to={"/"} className={({ isActive }) => (isActive ? "nav-link" :
+                                    "nav-link")} >
                                     <a className="nav-link active " aria-current="page" >
                                         Inicio
                                     </a>
                                 </NavLink>
                             </li>
                             <li class="nav-item">
-                                <NavLink to={"/cursos"} className={({ isActive }) => (isActive ? "link" :
-                                    "link")}>
+                                <NavLink to={"/cursos"} className={({ isActive }) => (isActive ? "nav-link" :
+                                    "nav-link")}>
                                     <a className="nav-link active " aria-current="page" >
                                         Cursos
                                     </a>
@@ -41,8 +41,8 @@ const Navbarr = () => {
                             </li>
 
                             <li class="nav-item">
-                                <NavLink to={"/productos"} className={({ isActive }) => (isActive ? "link" :
-                                    "link")}>
+                                <NavLink to={"/productos"} className={({ isActive }) => (isActive ? "nav-link" :
+                                    "nav-link")}>
                                     <a className="nav-link active " aria-current="page" >
                                         Productos
                                     </a>
